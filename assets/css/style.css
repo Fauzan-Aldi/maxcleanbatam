@@ -31,7 +31,7 @@ button:focus {
 }
 
 .cw-custom-btn {
-    background: #d45b16;
+    background: #f8b604;
     padding: 15px 30px;
     border-radius: 5px;
     color: #ffff;
@@ -239,7 +239,7 @@ input[type=submit] {
     font-size: 36px;
     font-weight: 600;
     text-transform: capitalize;
-    color: #001837;
+    color: #f8b604;
     max-width: 600px;
     margin: auto;
     line-height: 50px;
@@ -377,7 +377,7 @@ a.lightbox-gallery::after {
 }
 
 .cleaning-btn:hover {
-    background: #222;
+    background: #f8b604;
     color: #fff;
     padding-left: 32px;
     padding-right: 32px
@@ -406,7 +406,7 @@ a.lightbox-gallery::after {
 }
 
 .custom-btn:hover {
-    background: #001837;
+    background: #f8b604;
     color: #ffff;
     border-radius: 10px
 }
@@ -424,7 +424,7 @@ a.lightbox-gallery::after {
 }
 
 .all-section-title h5 {
-    color: #001837;
+    color: #f8b604;
     font-size: 16px;
     font-weight: 700;
     position: relative;
@@ -445,7 +445,7 @@ a.lightbox-gallery::after {
 }
 
 .all-section-title h2 {
-    color: #001837;
+    color: #f8b604;
     font-size: 32px;
     font-weight: 700;
     max-width: 450px;
@@ -455,15 +455,15 @@ a.lightbox-gallery::after {
 }
 
 .slide-bg-1 {
-    background-image: url(../img/hero-1.jpg)
+    background-image: url(../../hero/hero1.png)
 }
 
 .slide-bg-2 {
-    background-image: url(../img/hero-2.jpg)
+    background-image: url(../../hero/hero2.png)
 }
 
 .slide-bg-3 {
-    background-image: url(../img/hero-3.jpg)
+    background-image: url(../../hero/hero3.png)
 }
 
 .service-bg-1 {
@@ -598,7 +598,7 @@ a.lightbox-gallery::after {
 }
 
 .header-top-area {
-    background-color: #252525;
+    background-color: #f8b604;
     font-size: 13px;
     padding: 10px 0
 }
@@ -649,7 +649,7 @@ a.lightbox-gallery::after {
 .mainmenu-area .mainmenu ul li a {
     font-size: 14px;
     display: block;
-    color: #1b1b1b;
+    color: #f8b604;
     font-weight: 600;
     text-transform: uppercase;
     padding: 30px 12px;
@@ -664,7 +664,7 @@ a.lightbox-gallery::after {
     content: "";
     width: 100%;
     height: 3px;
-    background: #cc8a00;
+    background: #f8b604;
     left: 0;
     opacity: 0;
     -webkit-transition: .3s;
@@ -778,7 +778,7 @@ a.lightbox-gallery::after {
 
 .header-right-cart .header-shop i {
     cursor: pointer;
-    color: #1b1b1b;
+    color: #f8b604;
     font-size: 16px
 }
 
@@ -855,12 +855,12 @@ a.lightbox-gallery::after {
     font-size: 15px;
     text-transform: capitalize;
     text-decoration: none;
-    color: #222;
+    color: #f8b604;
     font-weight: 700
 }
 
 .header-right-cart .header-shop .shopping-cart li .shop-cart-text p a {
-    color: #222;
+    color: #f8b604;
     font-weight: 700;
     font-size: 14px
 }
@@ -1031,7 +1031,7 @@ a.lightbox-gallery::after {
 }
 
 .homepage-slides .owl-nav div:hover {
-    background: #222;
+    background: #f8b604;
     color: #fff
 }
 
@@ -1206,7 +1206,7 @@ a.lightbox-gallery::after {
 }
 
 .cta-area {
-    background: #94b200 none repeat scroll 0 0;
+    background: #f8b604 none repeat scroll 0 0;
     color: #fff;
     padding: 30px 0
 }
@@ -1295,7 +1295,7 @@ a.lightbox-gallery::after {
 }
 
 .who-we-info .single-info:hover i {
-    background-color: #222;
+    background-color: #f8b604;
     color: #fff
 }
 
@@ -1557,7 +1557,7 @@ a.lightbox-gallery::after {
 }
 
 .read-more-btn:hover {
-    background-color: #222;
+    background-color: #f8b604;
     color: #fff;
     padding-left: 22px;
     padding-right: 22px
@@ -1620,7 +1620,7 @@ a.lightbox-gallery::after {
 }
 
 .read-more-btn:hover {
-    background-color: #222;
+    background-color: #f8b604;
     color: #fff
 }
 
@@ -1652,7 +1652,7 @@ a.lightbox-gallery::after {
 }
 
 .choose-reasons:hover i {
-    background-color: #222;
+    background-color: #f8b604;
     color: #fff
 }
 
@@ -1721,7 +1721,45 @@ a.lightbox-gallery::after {
 }
 
 .latest-pjoject {
-    padding: 100px 0 70px
+    padding: 100px 60px 70px
+}
+
+/* =====================================================
+   BERITA MAXCLEAN - CSS KHUSUS DAN PAKSA
+   ===================================================== */
+
+/* Container row - flexbox dengan gap */
+.latest-pjoject .row {
+    display: flex !important;
+    flex-wrap: nowrap !important;
+    justify-content: center !important;
+    align-items: flex-start !important;
+    gap: 100px !important;
+    margin: 0 !important;
+    padding: 0 !important
+}
+
+/* Kolom-kolom foto */
+.latest-pjoject .col-lg-4,
+.latest-pjoject .col-md-4,
+.latest-pjoject .col-sm-12 {
+    margin: 0 !important;
+    padding: 0 !important;
+    flex: 0 0 auto !important;
+    width: auto !important;
+    max-width: none !important
+}
+
+/* Gambar-gambar */
+.latest-pjoject img {
+    display: block !important;
+    max-width: 250px !important;
+    width: 100% !important;
+    height: 350px !important;
+    object-fit: cover !important;
+    border-radius: 8px !important;
+    margin: 0 !important;
+    padding: 0 !important
 }
 
 .single-project-item {
@@ -1794,7 +1832,7 @@ a.lightbox-gallery::after {
 
 .single-project-item .single-project-info .read-more-btn.project-btn {
     background: #fff none repeat scroll 0 0;
-    color: #222;
+    color: #f8b604;
     padding: 5px 15px;
     text-transform: capitalize;
     transition: .4s;
@@ -1860,7 +1898,7 @@ a.lightbox-gallery::after {
 }
 
 .pager li a:hover {
-    background-color: #222;
+    background-color: #f8b604;
     border: 1px solid #222
 }
 
@@ -1977,7 +2015,7 @@ a.lightbox-gallery::after {
 }
 
 .team-slides .owl-nav div {
-    background: #222;
+    background: #f8b604;
     color: #c3c3c3;
     font-size: 25px;
     height: 40px;
@@ -2135,7 +2173,7 @@ a.lightbox-gallery::after {
 }
 
 .profile-box .social-links a:hover {
-    background-color: #222;
+    background-color: #f8b604;
     color: #fff
 }
 
@@ -2192,7 +2230,7 @@ a.lightbox-gallery::after {
 }
 
 .single-price-table .select-plan:hover {
-    background-color: #222;
+    background-color: #f8b604;
     color: #fff
 }
 
@@ -2269,7 +2307,7 @@ a.lightbox-gallery::after {
 }
 
 .shop-slides .owl-nav div {
-    background: #222;
+    background: #f8b604;
     color: #c3c3c3;
     font-size: 25px;
     height: 40px;
@@ -2359,7 +2397,7 @@ a.lightbox-gallery::after {
 .shop-item-block .shop-single-item .shop-btn {
     background: #fff none repeat scroll 0 0;
     border-radius: 50%;
-    color: #222;
+    color: #f8b604;
     display: inline-block;
     font-size: 18px;
     height: 40px;
@@ -2413,7 +2451,7 @@ a.lightbox-gallery::after {
 }
 
 .shop-item-block.product h3 {
-    color: #222;
+    color: #f8b604;
     margin-top: 20px
 }
 
@@ -2505,7 +2543,7 @@ a.lightbox-gallery::after {
 .subscribe-form button {
     border: medium;
     border-radius: 100px;
-    background-color: #222;
+    background-color: #f8b604;
     color: #fff;
     height: 46px;
     padding: 0 25px;
@@ -2550,7 +2588,7 @@ a.lightbox-gallery::after {
 }
 
 .subscribe-section .subscribe-form button {
-    background-color: #222;
+    background-color: #f8b604;
     color: #fff;
     text-transform: uppercase;
     transition: .3s;
@@ -3086,7 +3124,7 @@ a.lightbox-gallery::after {
     height: inherit;
     padding: 10px 20px;
     font-size: 14px;
-    background: #222;
+    background: #f8b604;
     margin-top: 2px;
     margin-bottom: 0
 }
@@ -3176,7 +3214,7 @@ a.lightbox-gallery::after {
 .shorting-menu button {
     background: 0 0;
     border: 1px dashed;
-    color: #222;
+    color: #f8b604;
     margin: 0 7px;
     padding: 4px 20px;
     text-transform: uppercase;
@@ -3249,7 +3287,7 @@ a.lightbox-gallery::after {
 }
 
 .product-wrap-btn {
-    color: #222;
+    color: #f8b604;
     font-size: 14px;
     font-weight: 500;
     margin-right: 15px;
@@ -3556,7 +3594,7 @@ a.lightbox-gallery::after {
 }
 
 .contact-form-area input.sbmt-btn {
-    background-color: #222;
+    background-color: #f8b604;
     border: medium transparent;
     border-radius: 3px;
     font-size: 16px;
@@ -3671,7 +3709,7 @@ a.lightbox-gallery::after {
 }
 
 .footer-wid .footer-logo {
-    color: #222;
+    color: #f8b604;
     display: inline-block;
     font-size: 16px;
     margin: 0 0 10px;
@@ -3833,7 +3871,7 @@ a.lightbox-gallery::after {
 }
 
 #back-to-top:hover {
-    background-color: #222;
+    background-color: #f8b604;
     color: #fff
 }
 
@@ -4165,7 +4203,7 @@ a.lightbox-gallery::after {
 }
 
 .home-three-slider .slider-text h2 {
-    color: #001837;
+    color: #f8b604;
     font-size: 35px;
     font-weight: 700;
     margin-bottom: 30px;
@@ -4261,7 +4299,7 @@ a.lightbox-gallery::after {
 .choose-section .single-choose .choose-text h3 {
     font-size: 16px;
     font-weight: 700;
-    color: #222;
+    color: #f8b604;
     margin-bottom: 10px
 }
 
@@ -4470,7 +4508,7 @@ a.lightbox-gallery::after {
 .services-section .service-box .service-img-caption h3 {
     font-weight: 600;
     text-transform: capitalize;
-    color: #001837;
+    color: #f8b604;
     margin-bottom: 15px;
     transition: .5s;
     -webkit-transition: .5s
@@ -4663,7 +4701,7 @@ a.lightbox-gallery::after {
 
 .features-sections .feature-all-item .single-features .feature-item h3 {
     font-size: 18px;
-    color: #001837;
+    color: #f8b604;
     font-weight: 600;
     text-transform: uppercase;
     margin-left: 45px;
@@ -4771,7 +4809,7 @@ a.lightbox-gallery::after {
 .testimonial-sections .single-testimonial .tstmial-title .address h5 {
     font-size: 17px;
     font-weight: 600;
-    color: #001837;
+    color: #f8b604;
     margin-bottom: 10px;
     text-transform: capitalize
 }
@@ -4791,7 +4829,7 @@ a.lightbox-gallery::after {
 }
 
 .testimonial-sections .single-testimonial .tstmial-title .address .star li i.fa-star:before {
-    color: #fba311
+    color: #f8b604
 }
 
 .testimonial-sections .single-testimonial p {
@@ -5056,7 +5094,7 @@ a.lightbox-gallery::after {
     font-size: 20px;
     font-weight: 700;
     margin-bottom: 20px;
-    color: #001837;
+    color: #f8b604;
     line-height: 30px
 }
 
@@ -5165,7 +5203,7 @@ a.lightbox-gallery::after {
 }
 
 .blog-section .single-blog .blog-caption h3 {
-    color: #001837;
+    color: #f8b604;
     font-size: 16px;
     font-weight: 600;
     margin-bottom: 15px;
@@ -5180,7 +5218,7 @@ a.lightbox-gallery::after {
 
 .blog-section .single-blog .blog-caption .cap-bottom li {
     display: inline-block;
-    color: #001837;
+    color: #f8b604;
     font-weight: 700;
     font-size: 12px;
     margin-right: 20px
@@ -5372,7 +5410,7 @@ a.lightbox-gallery::after {
 .footer-top .recent-news h2 {
     font-size: 20px;
     font-weight: 700;
-    color: #001837;
+    color: #f8b604;
     text-transform: capitalize;
     font-weight: 700;
     margin-bottom: 40px
@@ -5428,7 +5466,7 @@ a.lightbox-gallery::after {
 .footer-top .foot-address h2 {
     font-size: 20px;
     font-weight: 700;
-    color: #001837;
+    color: #f8b604;
     text-transform: capitalize;
     font-weight: 700;
     margin-bottom: 40px
@@ -5474,7 +5512,7 @@ a.lightbox-gallery::after {
 .footer-top .foot-instragram h2 {
     font-size: 20px;
     font-weight: 700;
-    color: #001837;
+    color: #f8b604;
     text-transform: capitalize;
     font-weight: 700;
     margin-bottom: 40px
@@ -5957,7 +5995,7 @@ a.lightbox-gallery::after {
     font-weight: 600;
     text-transform: capitalize;
     border-radius: 5px;
-    color: #222;
+    color: #f8b604;
     display: inline-block;
     padding: 20px 30px
 }
@@ -6042,7 +6080,7 @@ a.lightbox-gallery::after {
 .follow-work .single-follow-work h3 {
     font-size: 18px;
     font-weight: 700;
-    color: #222;
+    color: #f8b604;
     text-transform: uppercase;
     margin-top: 30px;
     margin-bottom: 22px
@@ -6230,7 +6268,7 @@ a.lightbox-gallery::after {
 .benefits-section .single-banefits .benefits-wrap .ban-item .b-text h4 {
     font-size: 18px;
     font-weight: 600;
-    color: #222;
+    color: #f8b604;
     text-transform: capitalize
 }
 
@@ -6426,7 +6464,7 @@ a.lightbox-gallery::after {
 .news-section .single-news .news-caption h3 {
     font-size: 20px;
     font-weight: 600;
-    color: #001837;
+    color: #f8b604;
     margin-bottom: 20px;
     text-transform: capitalize;
     transition: .5s;
@@ -6596,11 +6634,11 @@ a.lightbox-gallery::after {
 }
 
 .header-topbar-section3 .single-top-head .head-ntfd-icon li a:hover {
-    color: #d45b16
+    color: #f8b604
 }
 
 .header-topbar-section3 .single-top-head .head-ntfd-icon li a:hover i {
-    color: #d45b16
+    color: #f8b604
 }
 
 .header-topbar-section3 .single-top-head .head-ntfd-icon li a i {
@@ -6651,11 +6689,11 @@ a.lightbox-gallery::after {
 }
 
 .header-topbar-section3 .single-top-head .est-questions li a:hover {
-    color: #d45b16
+    color: #f8b604
 }
 
 .header-topbar-section3 .single-top-head .est-questions li a:hover i {
-    color: #d45b16
+    color: #f8b604
 }
 
 .header-topbar-section3 .single-top-head .est-questions li a i {
@@ -6713,7 +6751,7 @@ a.lightbox-gallery::after {
 
 .mainmenu-area5 .header-right-cart .header-shop2 i {
     cursor: pointer;
-    color: #1b1b1b;
+    color: #f8b604;
     font-size: 18px;
     line-height: 32px
 }
@@ -6737,12 +6775,12 @@ a.lightbox-gallery::after {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    color: #1b1b1b;
+    color: #f8b604;
     font-size: 20px
 }
 
 .mainmenu-area5 .header-right-cart2 .header-shop2 i {
-    color: #1b1b1b;
+    color: #f8b604;
     font-size: 20px
 }
 
@@ -6814,7 +6852,7 @@ a.lightbox-gallery::after {
 }
 
 .car-washing-slider.owl-theme .owl-nav [class*=owl-]:hover {
-    color: #d45b16
+    color: #f8b604
 }
 
 .car-washing-slider .single-cw-slider {
@@ -6992,7 +7030,7 @@ a.lightbox-gallery::after {
 }
 
 .cw-certified-services-section .single-cw-certified-service i {
-    background-color: #d45b16;
+    background-color: #f8b604;
     width: 80px;
     height: 80px;
     display: inline-block;
@@ -7166,7 +7204,7 @@ a.lightbox-gallery::after {
     font-size: 24px;
     font-weight: 400;
     font-family: teko, sans-serif;
-    color: #222;
+    color: #f8b604;
     text-transform: capitalize;
     margin-bottom: 10px
 }
@@ -7174,7 +7212,7 @@ a.lightbox-gallery::after {
 .cw-price-sections .single-pricing .price-head h1 {
     font-size: 36px;
     font-weight: 600;
-    color: #222;
+    color: #f8b604;
     font-family: teko, sans-serif
 }
 
@@ -7219,7 +7257,7 @@ a.lightbox-gallery::after {
 
 .cw-price-sections .single-pricing:hover .cw-custom-btn {
     background: #ffff;
-    color: #d45b16;
+    color: #f8b604;
     -webkit-box-shadow: 1px 5px 18px 0 #dedada;
     box-shadow: 1px 5px 18px 0 #dedada
 }
@@ -7284,7 +7322,7 @@ a.lightbox-gallery::after {
 .cw-testimonials-section .testimonials-bg .cw-testimonial-slider .single-cw-testimonial {
     background-color: #ffff;
     padding: 40px;
-    border-bottom: 4px solid #d45b16
+    border-bottom: 4px solid #f8b604
 }
 
 .cw-testimonials-section .testimonials-bg .cw-testimonial-slider .single-cw-testimonial .test-profile {
@@ -7303,7 +7341,7 @@ a.lightbox-gallery::after {
     font-size: 18px;
     font-weight: 600;
     font-family: teko, sans-serif;
-    color: #222;
+    color: #f8b604;
     margin-bottom: 0;
     letter-spacing: 2px;
     text-transform: capitalize
@@ -7329,7 +7367,7 @@ a.lightbox-gallery::after {
 }
 
 .cw-testimonials-section .testimonials-bg .cw-testimonial-slider .single-cw-testimonial p i {
-    color: #d45b16;
+    color: #f8b604;
     margin-right: 10px
 }
 
@@ -7377,7 +7415,7 @@ a.lightbox-gallery::after {
     font-size: 48px;
     font-weight: 400;
     font-family: teko, sans-serif;
-    color: #222;
+    color: #f8b604;
     text-transform: capitalize
 }
 
@@ -7388,7 +7426,7 @@ a.lightbox-gallery::after {
 .appoinment-section .single-appoinement p {
     font-size: 18px;
     font-weight: 400;
-    color: #222;
+    color: #f8b604;
     text-transform: capitalize;
     margin-bottom: 20px
 }
@@ -7397,7 +7435,7 @@ a.lightbox-gallery::after {
     font-size: 48px;
     font-weight: 400;
     font-family: teko, sans-serif;
-    color: #222;
+    color: #f8b604;
     margin-bottom: 20px
 }
 
@@ -7523,7 +7561,7 @@ a.lightbox-gallery::after {
 
 .cw-footer-top .cw-ft-contact .cw-f-social-icon ul li a {
     background: #ffff;
-    color: #222;
+    color: #f8b604;
     width: 35px;
     height: 35px;
     border-radius: 50%;
@@ -7699,4 +7737,64 @@ a.lightbox-gallery::after {
 
 .cw-footer p a:hover {
     text-decoration: underline
+}
+
+/* =====================================================
+   BERITA MAXCLEAN - RESPONSIVE MOBILE
+   ===================================================== */
+
+/* Tablet (max-width: 991px) */
+@media (max-width: 991px) {
+    .latest-pjoject .row {
+        gap: 60px !important
+    }
+    
+    .latest-pjoject img {
+        max-width: 220px !important;
+        height: 300px !important
+    }
+}
+
+/* Mobile (max-width: 767px) */
+@media (max-width: 767px) {
+    .latest-pjoject {
+        padding: 60px 20px 40px !important
+    }
+    
+    .latest-pjoject .row {
+        flex-wrap: wrap !important;
+        flex-direction: column !important;
+        gap: 30px !important
+    }
+    
+    .latest-pjoject .col-lg-4,
+    .latest-pjoject .col-md-4,
+    .latest-pjoject .col-sm-12 {
+        width: 100% !important;
+        max-width: 100% !important;
+        flex: 0 0 100% !important
+    }
+    
+    .latest-pjoject img {
+        max-width: 100% !important;
+        width: 100% !important;
+        height: auto !important;
+        max-height: 400px !important
+    }
+}
+
+/* Small Mobile (max-width: 480px) */
+@media (max-width: 480px) {
+    .latest-pjoject {
+        padding: 40px 15px 30px !important
+    }
+    
+    .latest-pjoject .row {
+        gap: 20px !important
+    }
+    
+    .latest-pjoject img {
+        max-height: 350px !important;
+        border-radius: 6px !important
+    }
 }
